@@ -1,0 +1,29 @@
+html, body {
+    margin: 15px !important;
+}
+
+form {
+    font-size: 1.25em;
+    padding: 1em;
+}
+
+form * {
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type=submit] {
+}
+
+input[type=radio] {
+    display: inline-block;
+}
+
+.required {
+    color: red;
+    font-size: 0.75em;
+    margin: 5px !important;
+    padding: 5px !important;
+}
