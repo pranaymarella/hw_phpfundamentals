@@ -13,7 +13,7 @@
     <h1>Bill Splitter</h1>
 
     <form method='GET'>
-        <label for='base_total'>How much was the bill after tax?</label>
+        <label for='base_total'>How much was the bill after tax? <span class="required">Required</span></label>
         <input type='text' name='base_total' placeholder='$ Total After Tax' id='base_total'>
         <br>
 
@@ -24,10 +24,10 @@
         <label for='choose_tip'>How much would you like to tip? <span class="required">Required</span></label>
         <select name='choose_tip' id='choose_tip' class='dropdown'>
             <option value='-1'>% to tip</option>
-            <option value='0' <?php if ($tip_str == '0') echo 'SELECTED'?>>0%</option>
-            <option value='.15' <?php if ($tip_str == '0.15') echo 'SELECTED'?>>15%</option>
-            <option value='.20' <?php if ($tip_str == '0.20') echo 'SELECTED'?>>20%</option>
-            <option value='.25' <?php if ($tip_str == '0.25') echo 'SELECTED'?>>25%</option>
+            <option value='0' <?php if ($tip == 0) echo 'SELECTED'?>>0%</option>
+            <option value='.15' <?php if ($tip == 0.15) echo 'SELECTED'?>>15%</option>
+            <option value='.20' <?php if ($tip == 0.20) echo 'SELECTED'?>>20%</option>
+            <option value='.25' <?php if ($tip == 0.25) echo 'SELECTED'?>>25%</option>
         </select>
         <br>
 

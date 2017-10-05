@@ -7,7 +7,7 @@ class Bill
     // properties
     private $tip;
     private $base_total;
-    private $people;
+    private $people = 1;
     private $service;
 
     // Methods
