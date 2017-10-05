@@ -13,7 +13,7 @@
     <h1>Bill Splitter</h1>
 
     <form method='GET'>
-        <label for='base_total'>How much was the bill after tax? <span class="required">Required</span></label>
+        <label for='base_total'>How much was the bill after tax?</label>
         <input type='text' name='base_total' placeholder='$ Total After Tax' id='base_total'>
         <br>
 
