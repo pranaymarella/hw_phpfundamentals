@@ -31,7 +31,7 @@
         </select>
         <br>
 
-        <label for='service'>How would you rate the service?</label>
+        <label>How would you rate the service?</label>
         <fieldset class='radios'>
             <label><input type='radio' name='service' value='Very Bad' <?php if ($service == 'Very Bad') echo 'CHECKED'?>> Very Bad </label>
             <label><input type='radio' name='service' value='Bad' <?php if ($service == 'Bad') echo 'CHECKED'?>> Bad </label>
